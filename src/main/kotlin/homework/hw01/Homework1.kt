@@ -4,6 +4,7 @@ fun heapSort(array : Array<Int>) {
     // builds the heap in array
     for (i in array.size / 2 downTo 0) {
         shiftDown(array, i, array.size)
+        //new comment
     }
 
 
